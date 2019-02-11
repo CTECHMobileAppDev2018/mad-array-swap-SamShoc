@@ -17,6 +17,9 @@ class ArraySwapper {
     // Swap the two items in "inputArray" and return the output
     // Remember to make sure that loc1 and loc2 are valid positions in the array!
     int temp;
+    temp = inputArray[0];
+    inputArray[0] = inputArray[1];
+    inputArray[1] = temp;
         
   }
 
